@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+	font-family: 'Rubik', sans-serif;
+}
+.MuiSlider-thumb{
+	visibility: hidden;
+}
+.MuiSlider-rail{
+	color: gray;
+}
+.MuiSlider-track{
+	color: #f02d65;
+}
